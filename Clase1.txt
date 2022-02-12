@@ -1,0 +1,36 @@
+REPASO JS
+
+
+CONSOLE.DIR(ASDASD) da info del tag html
+
+var a = 1
+let b = 1
+(SI ESTAN EN LA MISMA FUNCION ES LO MISMO, SI NO ESTAN LET NO FUNCIONA FUERA DE LA FUNCION)
+
+
+var se puede reemplazar despues de haberla declarado
+
+
+let no
+
+ const NO SE PUEDE CAMBIAR NUNCA DESP DE DECLARARLA (no se puede generar sin contenido)
+
+
+
+DEFAULT USO CONST
+SINO USO LET
+>>---VAR NUNCA---<<
+
+
+----------------------------------------------------------------------------------------------------------------
+
+ITERAR ARRAY 
+
+FOR / FOREACH /FOR IN/FOR OF/DO  WHILE /REDUCE/MAP/FILTER/FIND /FIND INDEX
+
+FOR LE TENGO QUE DAR DONDE ARRANCA DONDE TERMINA Y CUANTO SE MUEVE ENTRE UNA Y OTRA
+
+FOREACH RECORRE TODO Y TIENE QUE SER CON UNA FUNCION
+
+ARR MAP EN Q SE DIFERENCIA DEL FOREACH 
+DIF ENTRE SENTENCIA Y EXPRESION
