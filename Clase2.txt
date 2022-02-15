@@ -1,0 +1,26 @@
+JS
+
+Uno de los motores del navegador para correr JS es V8
+
+API WEB es una herramienta del entorno que se usa para algunas funciones
+
+
+
+Node JS
+
+Es un programa ejecutable que cuento lo ejecutas te da el motor que corre js y herramientas para usar con el js
+
+Herramientas:
+
+NPM : Node Package Manager
+
+WebpacK : Bundler - Empaqueta todo el codigo, nos da todo el codigo en la cantidad de archivos js que queramos
+
+Babel : Traductor de codigo de JS
+
+JSX : Es como html en JS -  JS XML
+
+create-react-app :  Crea una aplicacion react con una estructura basica y ya configurada por default
+
+
+FALTAN LOS COMANDOS DE NODE
