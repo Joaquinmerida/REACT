@@ -1,0 +1,20 @@
+Hay que renderizar una vez y despues se va actualizando los cambios en vivo pero tengo que imprimirlo si o si
+
+
+ReactDOM.render(a,b)
+
+A = LO QUE QUIERO RENDERIZAR 
+B = LUGAR DEL DOM DONDE VOY A RENDERIZAR (POR DEFAULT ROOT)
+
+
+Voy generando archivos js en la misma carpeta, lo exporto con "export default App"
+Y lo importo en el index.js con " import App from "./App" "
+
+
+
+PARA PONER VARIOS ELEMENTOS EN UN  RETURN TENGO QUE PONERLO ADENTRO DE UN FRAGMENT CON LAS ETIQUETAS <> LO QUE QUIERO PONER </>
+
+
+
+
+
