@@ -4,6 +4,11 @@
     border-collapse: collapse;
 }
 
+#root{
+    display: flex;
+    flex-direction: column;
+}
+
 body{
     background-color: #00AF91;
 }
@@ -46,4 +51,19 @@ box-shadow: 2px 3px  #F58634;
     color: #FFCC29;
     scale: 1.2;
     text-shadow: 2px 2px 5px rgb(116, 2, 2);
+}
+
+.main__texto { 
+    margin: auto;
+    color: #040300;
+    text-shadow: 2px 2px 10px #ffffffbd;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#error{
+    font-size: 30rem;
+    color: #F58634;
+    text-shadow: 2px 2px 5px #000000;
+
 }
