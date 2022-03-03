@@ -56,14 +56,63 @@ box-shadow: 2px 3px  #F58634;
 .main__texto { 
     margin: auto;
     color: #040300;
-    text-shadow: 2px 2px 10px #ffffffbd;
     text-align: center;
     font-size: 2rem;
 }
 
-#error{
-    font-size: 30rem;
+.contador{
+    background-color: #f5843478;
+    border: 2px solid #FFCC29;
+    color: white;
+    margin-top: 10%;
+}
+
+.contador p {
+    font-size: 1.8rem;
+}
+
+.contador button{
+    font-size: 2rem;
+}
+
+.contador button:hover{
     color: #F58634;
-    text-shadow: 2px 2px 5px #000000;
+    border-color: #F58634;
+    background-color: #FFCC29;
+    cursor: pointer;
+}
+
+.contador__inside button{
+    margin: 5%;
+    padding: 1% 2%;
+    background-color: #F58634;
+    border-radius: 100px;
+    border: 2px solid #FFCC29;
+    color: white;
+    font-size: 2rem;
+    font-family: monospace;
+    
+}
+
+.contador__insideDos p {
+    font-size: 2rem;
+    padding: 5%;
+    color: #FFCC29;
+}
+
+.contador__insideDos button{
+    background-color: #F58634;
+    font-size: 1rem;
+    color: #FFCC29;
+    border-radius: 100px;
+    border: 2px solid #FFCC29;
+    padding: 1% 2%;
+}
+
+#stock{
+    font-size: 1rem;
+    color: #FFCC29;
+    background-color: #F58634;
+    border: 1px solid #FFCC29;
 
 }

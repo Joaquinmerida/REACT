@@ -1,18 +1,14 @@
 import React from 'react'
+import ItemCount from './ItemCount';
 
-const Main = () => {
-
-    const persona = {
-        nombre : "Marcelo"
-    }
+const Main = (props) => {
 
   return (
     <div className='main__texto'>
-        <span class="material-icons" id='error'> error_outline</span>
         <h1>Bienvenido al Apollo XI</h1>
-        <p>Hola {persona.nombre}, actualmente nuestro sitio web se encuentra en mantenimiento</p>
+        <ItemCount/>
     </div>
   )
 }
 
-export default Main
+export default Main;
