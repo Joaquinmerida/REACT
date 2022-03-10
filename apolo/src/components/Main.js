@@ -1,22 +1,16 @@
 import React from 'react'
-import ItemCount from './ItemCount';
-import Item from './Item';
-import faker from "faker"
+import ItemList from './ItemList';
 
 
 
 const Main = () => {
+  
 
   return (
-    
-    <div className='main__texto'>
-        <ItemCount/>
-        <h2>Elegí tu plato favorito:</h2>
-        <div className='main__items'>
-          <Item imagen={faker.image.food()} class="catalogo"/>
-        </div>
+    <div className="main__items">
+    <ItemList/>
     </div>
-  )
+    )
 }
 
 export default Main;
