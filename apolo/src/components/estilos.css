@@ -179,4 +179,46 @@ color: grey;
 }
 
 
+.item__detail{
+    background-color: white;
+    border: double #F58634 4px;
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    padding: 3%;
+}
+h2{
+    margin: auto;
+}
+.item__detailTitulo{
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+}
 
+.item__detailTitulo h2{
+    font-size: 4rem;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+.item__detailDescripcion{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    justify-content: center;
+}
+
+.item__detailDescripcion p {
+    font-size: 1.8rem;
+    color: #007965;
+    text-shadow: 1px 1px black;
+
+}
+
+.item__detailDescripcion h4, h2{
+    font-size: 3rem;
+    color: #F58634;
+    text-shadow: 2px 3px black;
+}

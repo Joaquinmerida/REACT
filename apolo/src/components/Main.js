@@ -1,15 +1,17 @@
 import React from 'react'
 import ItemList from './ItemList';
-
+import ItemDetailContainer from './ItemDetailContainer'
 
 
 const Main = () => {
   
 
-  return (
+  return (<>
     <div className="main__items">
     <ItemList/>
     </div>
+    <ItemDetailContainer/>
+    </>
     )
 }
 
