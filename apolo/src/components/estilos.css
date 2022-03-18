@@ -44,12 +44,11 @@ box-shadow: 2px 3px  #F58634;
     font-size: 2rem;
     padding: 2%;
     width: 1/3fr;
-    text-shadow: 1px 1px  #000000;
 }
 
 .header__links a:hover{
     color: #FFCC29;
-    scale: 1.2;
+    scale: 1.1;
     text-shadow: 2px 2px 5px rgb(116, 2, 2);
 }
 
@@ -133,6 +132,64 @@ box-shadow: 2px 3px  #F58634;
 
 }
 
+.landing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.landing h2{
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    margin: 4% 0 0;
+}
+
+.main__categorias{
+text-align: center;
+margin-top: 1%;
+width: 100%;
+}
+
+.main__categorias a{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-left: 3%;
+}
+
+.landing__inner{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.landing__inner h3{
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.landing__inner ul{
+    height: 100%;
+    list-style: decimal;
+}
+
+.landing__inner li,a{
+    font-size: 2rem;
+    color: #FFCC29;
+    text-shadow: 2px 2px black;
+    margin: 5% 0;
+    width: 100%;
+}
+
+.landing__footer{
+    position: absolute;
+    bottom: 0%;
+    font-size: 1rem;
+    color: white;
+}
+
 .main__items{
     width: 100%;
     height: 30rem;
@@ -142,7 +199,7 @@ box-shadow: 2px 3px  #F58634;
     align-items: flex-start;
     background-color: rgb(255, 255, 255);
     padding: 2%;
-    margin: 10% 0;
+    margin: 10% 0 0;
     border: 2px solid grey;
 }
 
@@ -221,4 +278,14 @@ h2{
     font-size: 3rem;
     color: #F58634;
     text-shadow: 2px 3px black;
+}
+
+.categorias{
+    width: 100%;
+}
+
+.categorias ul{
+    display: flex;
+    width: 100%;
+    float: left;
 }

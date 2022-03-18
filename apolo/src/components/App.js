@@ -1,14 +1,15 @@
 import React from "react";
 import Header from "./Header";
 import Main from "./Main";
+import { BrowserRouter } from "react-router-dom";
 
 const App = () => {
 
     return(
-        <> 
-            <Header/>
-            <Main/>
-        </>
+        <BrowserRouter>
+            <Header />
+            <Main />
+        </BrowserRouter> 
     )
 };
 
