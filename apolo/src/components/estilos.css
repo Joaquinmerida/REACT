@@ -70,17 +70,18 @@ box-shadow: 2px 3px  #F58634;
 
 .counter { 
     width: 100%;
-    margin-top: 5%;
+    text-align: center;
+    margin-top: 2%;
+
+}
+
+#counter__count{
+    width: 20%;
 }
 
 .contador{
-    background-color: #f5843478;
-    border: 2px solid #FFCC29;
-    color: white;
-    margin-top: 10%;
-    width: 30%;
-    margin: auto;
-
+    background-color: #f5843433;
+    color: #F58634;
 }
 
 .contador p {
@@ -98,26 +99,49 @@ box-shadow: 2px 3px  #F58634;
     cursor: pointer;
 }
 
+.contador__inside{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contador__inside p{
+    width: 100%;
+    text-align: center;
+}
+
+
 .contador__inside button{
     margin: 5%;
-    padding: 1% 2%;
+    padding: 2%;
     background-color: #F58634;
-    border-radius: 100px;
+    border-radius: 15px;
     border: 2px solid #FFCC29;
     color: white;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: monospace;
 }
 
+.contador__insideDos{
+    display: flex;
+    flex-direction: column;
+}
+
+.contador__insideDos a{
+    margin: 3% 0;
+    text-align: center;
+}
+
 .contador__insideDos p {
-    font-size: 2rem;
-    padding: 5%;
+    font-size: 3rem;
+    padding: 1%;
+    margin: 1%;
     color: #FFCC29;
 }
 
 .contador__insideDos button{
     background-color: #F58634;
-    font-size: 1rem;
+    font-size: 2rem;
     color: #FFCC29;
     border-radius: 100px;
     border: 2px solid #FFCC29;

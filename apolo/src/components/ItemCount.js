@@ -1,12 +1,13 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
-const ItemCount = () => {
-  const stock = 10;
 
+const ItemCount = (props) => {
+
+  const stock = props.stock;
   const [estado, setEstado] = useState(0);
 
-  const [precio, setPrecio] = useState(0);
 
   const sumarPlato = () => {
     if (estado < stock) {
@@ -21,8 +22,10 @@ const ItemCount = () => {
   };
 
   const agregarPedido = () => {
-    setPrecio(200 * estado);
+    props.onAdd(estado)
   };
+
+
 
 return (
     <>
@@ -31,12 +34,12 @@ return (
         <div className="contador__inside">
             <p>Platos pedidos:</p>
             <button onClick={sumarPlato}>+</button>
-            {estado}
+            <h2 id="counter__count">{estado}</h2>
             <button onClick={restarPlato}>-</button>
         </div>
         <div className="contador__insideDos">
-            <button onClick={agregarPedido}>Agregar pedido</button>
-            <p>Total a pagar: ${precio}</p>
+            <button onClick={agregarPedido}>Agregar al carrito</button>
+            <Link to="/cart">Finalizar compra</Link>
             <p id="stock">Platos disponibles: {stock - estado}</p>
             </div>
         </div>

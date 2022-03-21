@@ -8,10 +8,11 @@ import { Link } from 'react-router-dom'
 const Item = props => {
 
 
+
     const lista = props.productos
 
     const list = lista.map((producto) =>{
-      
+
         return (
         <div key={producto.id} className="catalogo"> 
         <img alt="imagen de plato de comida" src={faker.image.food()}/>

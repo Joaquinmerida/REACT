@@ -33,7 +33,6 @@ useEffect (() => {
 
 },)
 
-console.log(detailItem)
 
     if(loading){
         return <h2>Cargando...</h2>
